@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background: url(image/back6.jpg);
+    background-size: cover;
+}
+.salade{
+    text-align: center;
+    padding: 50%s;
+}
+
+img:hover{
+    opacity: 0.7;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+h1{
+    font-family: "lobster",cursive;
+    text-align:center;
+    background-image: url(image/baner4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150PX;
+    color:rgb(22, 235, 50);
+    text-shadow:6px 6px 3px #aebbd1;
+}
+
+p{
+    background-color: #b0b0b0;
+    background:linear-gradient( to right,
+    #076585,#fff);
+    text-align: center;
+    text-justify: auto;
+    margin: auto;
+    padding:2%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 15px rgb(29,49,63);
+    width: 70%;  
+}
+
+div{
+    font-weight: 600;
+}
+
+.container{
+   display: flex;
+   text-justify: auto;
+   justify-items: center;
+   gap: 20px;
+   width: 90%;
+   margin: auto;
+   padding: 20px;
+}
+.Ingredients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    background-color: beige;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.Preparation{
+    background: url(image/back4.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: 320px;
+    margin: auto;
+    padding: 10px;
+}
+
+.box1{
+     border: 2px solid black;
+     font-weight: 600;
+}
+   
+.box2{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box3{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box4{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box5{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box6{
+     border: 2px solid black;
+     font-weight: 600;
+}
+.box7{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box8{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box9{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box10{
+     border: 2px solid black;
+      font-weight: 600;
+}
+.box11{
+    border: 2px solid black;
+     font-weight: 600;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+}
+    
+h3{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+input,textarea{
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+fieldset{
+    background-color: rgb(155, 146, 146);
+    box-shadow: 6px 6px 15px rgb(29,49,63);
+    border-radius: 10px;
+
+}
+legend{
+    background-color: white;
+}
+
+@media screen and (min-width:960px) and (max-width:1024px){
+        color:red
+        font-size:1.2em;   
+       }
+         
+
