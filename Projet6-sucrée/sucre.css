@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    color: #3a2c2c;
+    overflow-x: hidden;
+}
+
+/* Background animé */
+.animated-bg {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(120deg, #fff6ea, #ffe0f0, #fff1c1);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    animation: fadeDown 1.2s ease;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    color: #5a2a2a
+}
+
+.hero p {
+    color: #7e2626;
+    font-size: 1.05rem;
+}
+
+/* Cards */
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 10%;
+}
+
+.card {
+    text-decoration: none;
+    color: #4a2a2a;
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 22px;
+    padding: 40px 25px;
+    transition: 0,35s ease;
+    transform-style: preserve-3d;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card span {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Hoover stylé */
+.card:hover {
+    transform: translateY(-10px) scale(1.04);
+    background: white;
+    box-shadow: 0 25px 45px rgba(255, 182, 193,0.45);
+}
+
+/* Animation intro */
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.sugar {
+    position: fixed;
+    top: -10px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    animation: fall linear infinite;
+    z-index: 0;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh);
+    }
+}
