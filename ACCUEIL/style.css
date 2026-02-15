@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.overlay p {
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+/* CARD */
+.recipe-card {
+    display: flex;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 500px;
+    text-decoration: none;
+    color: white;
+    transition: transforem 0.4s, box-shadow 0.4s;
+}
+
+.recipe-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+.recipe-card img {
+    width: 180px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-text span {
+    display: inline-block;
+    margin-top: 10px;
+    opacity: 0.8;
+}
