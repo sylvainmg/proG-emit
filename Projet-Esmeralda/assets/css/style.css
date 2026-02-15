@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 45%;
+    margin: 50px;
+}
+
+h1{
+    font-weight:bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70PX;
+    height: 30PX;
+    text-align: center;
+    text-shadow: 6PX 6PX 8PX #c78539;
+    color: #3f3b37;
+    margin-top: -10px;
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.div1{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    font-weight:300;
+    font-size: 15PX;
+    color: rgb(99, 100, 11);
+    margin-top: -10PX;
+    border-style: inset;
+    border-radius: 5%;
+    border-width: 5PX;
+    height: 250px;
+    border-color: #597745bb;
+    position: relative;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-left: 25%;  
+}
+@media (max-width:1006px) {
+    
+.div1{
+    margin-right: 5%;
+    margin-left: 15%;  
+}
+}
+@media (max-width:829px) {
+    
+.div1{
+position: absolute;
+left: 25%;
+margin-bottom: 50%;
+}
+}
+.pos{
+    display: flex;
+    margin-top: 30px;
+}
+
+.div2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-shadow:2PX 0PX 2PX rgb(167, 138, 43);
+     font-weight: 300;
+     font-size: 15px;
+     border-style: inset;
+     border-radius: 5%;
+     border-width: 5PX;
+width: 600px;
+padding-bottom: 20%;
+margin: 20px;
+     height: 200px;
+     background-color: rgba(255, 255, 255, 0.384); 
+}
+
+.div2 ul .Y{
+    text-decoration: underline; color: rgb(161, 22, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    font-weight: 10PX;
+}
+
+.div2 p{
+    text-decoration: underline; color: rgb(161, 22, 17);
+    font-weight: 10PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    font-style: normal;
+    
+}
